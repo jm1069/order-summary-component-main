@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+@media (min-width: 480px) {
+    body{
+        background-image: url("images/pattern-background-desktop.svg");
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+}
+
+.summary{
+    margin: auto;
+    width: auto;
+    background-color: white;
+    height: auto;
+}
+
+/* Desktop */
+@media (min-width: 480px) {
+    .summary{
+        margin: auto;
+        margin-top: 100px;
+        width: 450px;
+        border-radius: 25px;
+        height: auto;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+@media (min-width: 480px) {
+    .summary img{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
+
+.summarycontent{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.plan{
+    margin-top: 5%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    width: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.plan article{
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    line-height: 0px;
+}
+
+h1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+h2{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.infotext {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    text-align: center;
+}
+
+.plan a { 
+    color: hsl(228, 45%, 44%);
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.plan a:hover { 
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+
+.ptpay{
+    cursor: pointer;
+    padding: 4%;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    margin-top: 10%;
+}
+
+.ptpay:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+
+.corder{
+    cursor: pointer;
+    padding: 12%;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.corder:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution{
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+    height: auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
