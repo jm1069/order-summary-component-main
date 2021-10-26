@@ -93,6 +93,7 @@ h2{
     cursor: pointer;
     font-weight: 700;
     text-decoration: underline;
+    transition: 0.1s ease 0s;
 }
 
 .plan a:hover { 
@@ -109,11 +110,20 @@ h2{
     background-color: hsl(245, 75%, 52%);
     border-radius: 15px;
     margin-top: 10%;
+    border:2px soild #eee;
+    -webkit-box-shadow: 2px 3px 8px hsl(245, 75%, 52%);
+    -moz-box-shadow: 2px 3px 8px hsl(245, 75%, 52%);
+    box-shadow: 2px 3px 8px hsl(245, 75%, 52%);
+    transition: 0.3s ease 0s;
 }
 
 .ptpay:hover{
     cursor: pointer;
     background-color: hsl(224, 23%, 55%);
+    -webkit-box-shadow: 2px 3px 8px hsl(224, 23%, 55%);
+    -moz-box-shadow: 2px 3px 8px hsl(224, 23%, 55%);
+    box-shadow: 2px 3px 8px hsl(224, 23%, 55%);
+    transition: 0.3s ease 0s;
 }
 
 .corder{
